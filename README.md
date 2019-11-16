@@ -38,11 +38,24 @@ print(3/2)
 
 ```
 
-## Constants
+## Constants
 
 There is no constant type, but constants are conventionally written in all-caps.
 
 ```python
 MAX_CONNECTIONS = 48
 ```
+
+## Comments
+
+Comments use #
+
+```python
+# This is a comment.
+print('hi')
+```
+
+## Lists
+
+Lists are declared with __[ ]__
 
