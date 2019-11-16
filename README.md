@@ -59,3 +59,42 @@ print('hi')
 
 Lists are declared with __[ ]__
 
+* append(elem)
+* insert(pos, elem)
+* del[index]
+* pop()
+* pop(index)
+* remove(elem)
+
+```python
+a_list = ['tea', 'coffee', 'sugar']
+
+# 'tea'
+print(a_list[0])
+
+# 'sugar'
+print(a_list[-1])
+
+# .append(elem): add an element to the end of the list
+a_list.append('biscuits')
+
+# .insert(pos, elem): insert an element at a specific position in the list
+# ['tea', 'strawberries', 'coffee', 'sugar', 'biscuits']
+a_list.insert(1, 'strawberries')
+
+# del[index]: remove an element at a specific index
+# ['tea', 'coffee', 'sugar', 'biscuits']
+del a_list[1]
+
+# pop(): remove and return the last element in the list
+# ['tea', 'coffee', 'sugar']
+last_item = a_list.pop()
+
+# pop(index): remove and return the element at index
+# ['coffee', 'sugar']
+first_item = a_list.pop(0)
+
+# remove(elem): remove the (first) occurrence of elem
+# ['coffee]
+a_list.remove('sugar')
+```
