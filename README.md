@@ -236,7 +236,6 @@ for point in points:
 * if val in...: check if item in a list
 * if val not in...: check if item not in a list
 * if list: check if list not empty
-* 
 
 
 ```python
