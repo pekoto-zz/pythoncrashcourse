@@ -295,3 +295,14 @@ else:
 
 * Methods = for classes
 * Functions = not part of class
+
+## WSGI
+
+__Web Server Gateway Interface__ (WSGI, pronounced _whisky_). A calling convention for web servers to forward requests to web applications written in Python. So applications written in different Python web frameworks can run on the same web server. If WSGI didn't exist, when they chose a Python web framework, they would be limited in the choice of web servers they could run their application on.
+
+WSGI was created as an interface between web servers and web applications.
+
+### Gunicorn
+
+Green Unicorn. A Python WSGI server.
+
