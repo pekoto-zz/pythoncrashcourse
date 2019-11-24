@@ -291,3 +291,7 @@ else:
     print('Whew. No errors')
 ```
 
+## Methods vs. Functions
+
+* Methods = for classes
+* Functions = not part of class
